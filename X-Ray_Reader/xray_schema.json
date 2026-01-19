@@ -1,0 +1,20 @@
+{
+  "lungs": {
+    "findings": "",
+    "raw_text": ""
+  },
+  "heart": {
+    "findings": "",
+    "raw_text": ""
+  },
+  "pleura": {
+    "findings": "",
+    "raw_text": ""
+  },
+  "bones": {
+    "findings": "",
+    "raw_text": ""
+  },
+  "uncertain_findings": [],
+  "other_findings": []
+}

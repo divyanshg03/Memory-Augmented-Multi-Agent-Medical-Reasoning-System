@@ -1,0 +1,22 @@
+{
+  "lungs": {
+    "findings": "",
+    "raw_text": ""
+  },
+  "heart": {
+    "findings": "",
+    "raw_text": ""
+  },
+  "pleura": {
+    "findings": "",
+    "raw_text": ""
+  },
+  "bones": {
+    "findings": "Fracture in the distal fibula with a visible and displaced fracture line. Surrounding bone structure is intact, and no dislocation of the ankle joint is observed.",
+    "raw_text": "The X-ray images show a fracture in the distal fibula. The fracture line is visible and appears to be displaced. The surrounding bone structure is otherwise intact, and there is no visible dislocation of the ankle joint."
+  },
+  "uncertain_findings": [
+    "Soft tissue swelling may be present, but further evaluation is needed for confirmation."
+  ],
+  "other_findings": []
+}

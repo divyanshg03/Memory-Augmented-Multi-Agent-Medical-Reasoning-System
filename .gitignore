@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data outputs
+data/
+blood_reports/
+xray_reports/
+ecg_reports/
+
+# OS
+.DS_Store
+Thumbs.db

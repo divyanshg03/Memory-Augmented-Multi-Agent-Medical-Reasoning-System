@@ -1,0 +1,53 @@
+{
+  "hemoglobin": {
+    "value": null,
+    "unit": null,
+    "raw_text": ""
+  },
+  "total_leucocyte_count": {
+    "value": null,
+    "unit": null,
+    "raw_text": ""
+  },
+  "neutrophils": {
+    "value": null,
+    "unit": null,
+    "raw_text": ""
+  },
+  "lymphocytes": {
+    "value": null,
+    "unit": null,
+    "raw_text": ""
+  },
+  "eosinophils": {
+    "value": null,
+    "unit": null,
+    "raw_text": ""
+  },
+  "monocytes": {
+    "value": null,
+    "unit": null,
+    "raw_text": ""
+  },
+  "basophils": {
+    "value": null,
+    "unit": null,
+    "raw_text": ""
+  },
+  "absolute_neutrophils": {
+    "value": null,
+    "unit": null,
+    "raw_text": ""
+  },
+  "absolute_lymphocytes": {
+    "value": null,
+    "unit": null,
+    "raw_text": ""
+  },
+  "absolute_eosinophils": {
+    "value": null,
+    "unit": null,
+    "raw_text": ""
+  },
+  "unknown_tests": []
+}
