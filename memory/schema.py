@@ -9,6 +9,7 @@ print(f"Using device: {device}")
 
 @dataclass
 class ReasoningEpisode:
+    patient_id: str = ""
     episode_id: str = field(default_factory=lambda: str(uuid.uuid4()))
     state_summary: str = ""
     decision: str = ""
