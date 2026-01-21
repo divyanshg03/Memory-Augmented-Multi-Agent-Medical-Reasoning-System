@@ -7,14 +7,20 @@ bin-release/
 # Other files and folders
 .settings/
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+# Python virtual environments
+venv/
+.venv/
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
-venv
+# Environment files (secrets)
 .env
+.env.*
+**/.env
+
+# Python cache/artifacts
+__pycache__/
+*.py[cod]
+*.pyd
+
+# Local data files
+*.sqlite3
+*.db
