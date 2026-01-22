@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-label="Project architecture diagram">
+  <defs>
+    <style>
+      .bg { fill: #0b1220; }
+      .card { fill: #111b33; stroke: #2a3a66; stroke-width: 2; }
+      .title { fill: #e6edf7; font: 700 22px Inter, Segoe UI, Arial, sans-serif; }
+      .text { fill: #c9d6f0; font: 500 16px Inter, Segoe UI, Arial, sans-serif; }
+      .muted { fill: #9db1d6; font: 500 14px Inter, Segoe UI, Arial, sans-serif; }
+      .arrow { stroke: #7aa2ff; stroke-width: 2.5; fill: none; marker-end: url(#arrowhead); }
+      .pill { fill: #0f2a5a; stroke: #355aa6; stroke-width: 1.5; }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#7aa2ff" />
+    </marker>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="1200" height="520" rx="18" />
+
+  <text class="title" x="40" y="55">Memory-Augmented Multi-Agent Medical Reasoning System</text>
+  <text class="muted" x="40" y="82">High-level flow: intake → memory (Qdrant) → multi-agent reasoning (Groq) → learning/update → report</text>
+
+  <rect class="card" x="60" y="130" width="260" height="120" rx="14" />
+  <text class="text" x="90" y="170">Input</text>
+  <text class="muted" x="90" y="198">Patient profile</text>
+  <text class="muted" x="90" y="220">Episode (symptoms, duration,</text>
+  <text class="muted" x="90" y="242">severity, triggers)</text>
+
+  <rect class="card" x="380" y="120" width="360" height="140" rx="14" />
+  <text class="text" x="410" y="160">Pipeline Orchestrator</text>
+  <text class="muted" x="410" y="188">pipeline/orchestrator.py</text>
+  <rect class="pill" x="410" y="205" width="140" height="34" rx="17" />
+  <text class="muted" x="425" y="228">Steps 1 → 5</text>
+
+  <rect class="card" x="820" y="96" width="320" height="190" rx="14" />
+  <text class="text" x="850" y="136">Vector Memory (Qdrant)</text>
+  <text class="muted" x="850" y="164">PatientMemory: patient_profiles</text>
+  <text class="muted" x="850" y="186">LongTermMemory: reasoning_episodes</text>
+  <text class="muted" x="850" y="208">Payload indexes: confidence,</text>
+  <text class="muted" x="850" y="230">timestamp, domain, disagreement</text>
+
+  <rect class="card" x="380" y="320" width="360" height="150" rx="14" />
+  <text class="text" x="410" y="360">Multi-Agent Reasoning</text>
+  <text class="muted" x="410" y="388">Specialists: cardiology, neurology,</text>
+  <text class="muted" x="410" y="410">psychiatry, safety</text>
+  <text class="muted" x="410" y="432">LLM: Groq chat completions</text>
+
+  <rect class="card" x="60" y="330" width="260" height="140" rx="14" />
+  <text class="text" x="90" y="370">Output</text>
+  <text class="muted" x="90" y="398">Formatted report</text>
+  <text class="muted" x="90" y="420">Confidence + disagreement flag</text>
+  <text class="muted" x="90" y="442">CLI + FastAPI</text>
+
+  <path class="arrow" d="M 320 190 L 380 190" />
+  <path class="arrow" d="M 740 190 L 820 190" />
+  <path class="arrow" d="M 560 260 L 560 320" />
+  <path class="arrow" d="M 380 395 L 320 395" />
+  <path class="arrow" d="M 820 240 C 720 280, 690 320, 740 350" />
+</svg>
