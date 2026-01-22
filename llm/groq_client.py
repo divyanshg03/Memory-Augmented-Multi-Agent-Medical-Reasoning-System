@@ -14,7 +14,7 @@ def call_groq(prompt: str, model="openai/gpt-oss-120b"):
             {"role": "user", "content": prompt}
         ],
         temperature=1,
-        max_completion_tokens=8192,
+        max_completion_tokens=7000,
         top_p=1,
         reasoning_effort="high",
         stream=False,

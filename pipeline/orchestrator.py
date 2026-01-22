@@ -106,9 +106,10 @@ def run_full_clinical_orchestrator(
 
     # ================= FINAL OUTPUT =================
     return {
-        "patient_id": patient.patient_id,
-        "episode_id": episode.episode_id,
-        "final_decision": final_decision_text,
-        "confidence": final_confidence,
-        "disagreement": disagreement,
-    }
+    "patient_id": episode.patient_id,   # ✅ ADD THIS
+    "episode_id": episode.episode_id,
+    "final_decision": final_decision_text,
+    "confidence": final_confidence,
+    "disagreement": disagreement,
+}
+
